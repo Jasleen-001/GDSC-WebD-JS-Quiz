@@ -51,7 +51,7 @@ const arr=[
 
 
 	];
-//()
+//(
 	
 	const Question=document.querySelector('.Question');
 	const optiona=document.querySelector('#optiona');
@@ -110,6 +110,6 @@ const arr=[
 			loadQuestion();
 		else{
 			showScore.innerHTML =
-			'<h3> you scored ${score}/ ${arr.length} </h3>';
+			'<h3> you scored '+ score +'/'+arr.length+'</h3>';
 		}
 	});
