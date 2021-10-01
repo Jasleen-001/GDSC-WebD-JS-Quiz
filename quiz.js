@@ -110,6 +110,6 @@ const arr=[
 			loadQuestion();
 		else{
 			showScore.innerHTML =
-			'<h3> you scored '+ score +'/'+arr.length+'</h3>';
+			'<h3> SCORE : '+ score +'/'+arr.length+'</h3>'; 
 		}
 	});
